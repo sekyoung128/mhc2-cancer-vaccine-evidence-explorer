@@ -16,9 +16,9 @@ Source-derived identifiers, measurements and metadata remain distinct from machi
 
 ## Independent dimensions
 
-- **Inclusion and role:** cohort relevance and intended publication-specific purpose (target, relevant comparator, control or other). Neither follows automatically from assay positivity. Pending roles remain blank.
+- **Inclusion and role:** cohort relevance and intended publication-specific purpose (target, relevant comparator, control or other). `cancer_target` identifies a peptide investigated as a cancer-relevant immunological target in the source study. This role does not establish tumour specificity, natural antigen presentation, experimentally observed T-cell responses or vaccine suitability. Neither inclusion nor role follows automatically from assay positivity. Pending roles remain blank.
 - **CD4 response:** exact-CD4 functional observations require qualifying functional modality, explicitly CD4 effectors and exact assay-antigen attribution. Negative-only and mixed results remain distinct. No qualifying observation is not biological absence. PBMC or DTH findings must not become purified-CD4 proof.
-- **Restriction:** specific-HLA functional codes, subset codes, binding codes, prediction and linked context are reported separately. These are metadata proxies, not uniform experimental allele validation.
+- **Restriction:** specific-HLA functional codes, subset codes, binding codes, prediction and linked context are reported separately. MHC-II-related evidence can range from functional support for specific HLA class II restriction to broader class II context or insufficient restriction information. These categories are metadata proxies; inclusion does not establish experimentally verified restriction to a specific HLA class II allele for every peptide.
 - **Attribution:** exact pair, subcluster, reference-linked or unresolved evidence. Protein/construct or tumour-cell objects do not by themselves prove native tumour recognition or naturally presented peptide length.
 - **Provenance:** resolution pathway, manual source and preserved scientific review notes remain visible. Historical individual-review flags have limited scope.
 

@@ -89,7 +89,8 @@ def main():
         st.write('What this portal shows')
         st.write('Publication-specific MHC-II T-cell evidence is displayed across separate dimensions: cohort relevance, biological role, exact-antigen CD4 response, restriction annotation, evidence attribution and provenance. Linked evidence retains its scope; unresolved decisions remain visible.')
         st.write('What it does not show')
-        st.write('Target role does not imply positive CD4 immunogenicity, experimental allele-specific restriction, natural presentation, native tumour recognition or vaccine efficacy. Negative response does not assign comparator or control biology. Missing evidence is not negative evidence. Restriction categories are structured proxies; native tumour recognition and natural presentation are not established atlas-wide.')
+        st.write('The cancer_target role identifies a peptide investigated as a cancer-relevant immunological target in its source publication. It does not establish tumour specificity, natural antigen presentation, experimentally demonstrated immunogenicity or vaccine suitability. Negative response does not assign comparator or control biology. Missing evidence is not negative evidence.')
+        st.write('MHC-II-related evidence ranges from functional support for specific HLA class II restriction to broader class II context, binding or prediction annotations, or insufficient restriction information. Inclusion does not prove experimentally confirmed MHC-II restriction for every peptide. Native tumour recognition and natural presentation are not established atlas-wide.')
     metadata = u.dataset()
     st.subheader(metadata['label'])
     st.caption(metadata['description'])
@@ -105,7 +106,7 @@ def main():
         st.caption('Required dataset: ' + metadata['path'])
         st.stop()
     counts = u.dataset_counts(frame)
-    for col, label, value in zip(st.columns(5), ['Evidence pairs', 'Assay rows', 'Resolved pairs', 'Pending pairs', 'Cancer-target pairs'],
+    for col, label, value in zip(st.columns(5), ['Evidence pairs', 'Assay rows', 'Resolved pairs', 'Pending pairs', 'Cancer-target role pairs'],
             [counts[k] for k in ['pairs', 'assays', 'resolved', 'pending', 'targets']]):
         col.metric(label, f'{value:,}')
     selections = {}

@@ -1,6 +1,6 @@
 # MHC-II Cancer Vaccine Evidence Atlas
 
-A research portfolio for exploring publication-specific MHC-II T-cell evidence in cancer-vaccine research, with assay observations, biological roles and interpretation limits kept separate.
+A publication–epitope evidence atlas for MHC-II-related cancer immunology, including records with varying levels of experimental support for class II restriction.
 
 ## Overview
 
@@ -12,7 +12,11 @@ This project developed from an IEDB evidence inventory into a curated publicatio
 
 The atlas contains **7,141 publication–epitope pairs**, linked to **9,145 T-cell assay records** from the Immune Epitope Database (IEDB). There are 6,719 resolved pairs, 422 pending pairs and 4,517 cancer-target pairs.
 
-Each pair retains peptide and antigen identity, publication and IEDB links, biological role, exact-antigen CD4 response, restriction annotations, assay attribution and review notes. Target role does not imply a positive response or vaccine efficacy. Pending classifications remain visible.
+Each pair retains peptide and antigen identity, publication and IEDB links, biological role, exact-antigen CD4 response, restriction annotations, assay attribution and review notes. Pending classifications remain visible.
+
+In this atlas, `cancer_target` is a publication-specific classification identifying a peptide investigated as a cancer-relevant immunological target in the source study. It does not, by itself, establish tumour specificity, natural antigen presentation, experimentally demonstrated immunogenicity or suitability as a vaccine candidate.
+
+MHC-II restriction evidence also varies between records. Some contain functional evidence supporting specific HLA class II restriction, while others rely on broader class II context, binding or prediction data, or have insufficient restriction information. Inclusion in the atlas does not establish experimentally confirmed MHC-II restriction for every peptide.
 
 ## Validation and key findings
 
