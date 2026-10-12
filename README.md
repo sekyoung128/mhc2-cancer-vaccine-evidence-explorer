@@ -24,9 +24,9 @@ Native vimentin illustrates a target-to-comparator correction based on experimen
 
 ## Streamlit Evidence Explorer
 
-The single-dataset application supports peptide, antigen, PMID, epitope and title searches; role, CD4, restriction, attribution and resolution filters; assay-level details; source links; and filtered CSV downloads. It verifies the current matrix checksum before loading and shows no substitute if validation fails.
+[Open the live Streamlit Evidence Explorer](https://mhc2-cancer-vaccine-evidence-explorer.streamlit.app/).
 
-This project is prepared for local use. No public hosted deployment is claimed.
+The single-dataset application supports peptide, antigen, PMID, epitope and title searches; role, CD4, restriction, attribution and resolution filters; assay-level details; source links; and filtered CSV downloads. It verifies the current matrix checksum before loading and shows no substitute if validation fails.
 
 ## Local setup and tests
 
