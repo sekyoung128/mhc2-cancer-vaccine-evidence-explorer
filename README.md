@@ -10,7 +10,7 @@ This project developed from an IEDB evidence inventory into a curated publicatio
 
 ## What the atlas contains
 
-The distribution contains **Post-validation v1 only**: 7,141 publication–epitope pairs linked to 9,145 assay records. There are 6,719 resolved pairs, 422 pending pairs and 4,517 cancer-target pairs. The historical Frozen Level-2 CSV is not included.
+The atlas contains **7,141 publication–epitope pairs**, linked to **9,145 T-cell assay records** from the Immune Epitope Database (IEDB). There are 6,719 resolved pairs, 422 pending pairs and 4,517 cancer-target pairs.
 
 Each pair retains peptide and antigen identity, publication and IEDB links, biological role, exact-antigen CD4 response, restriction annotations, assay attribution and review notes. Target role does not imply a positive response or vaccine efficacy. Pending classifications remain visible.
 
