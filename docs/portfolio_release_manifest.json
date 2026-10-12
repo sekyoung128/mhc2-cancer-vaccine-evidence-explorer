@@ -1,0 +1,432 @@
+{
+  "release": "final-only portfolio v1",
+  "distributed_dataset": {
+    "source_filename": "mhc2_tcell_evidence_matrix_post_validation_public.csv",
+    "source_sha256": "a4a671ca8a3d875809bec1d09b06749af0c08401e60227a966a95ae0e8e16f74",
+    "derivative_filename": "mhc2_tcell_evidence_matrix_post_validation_portfolio_v1.csv",
+    "derivative_sha256": "cfcc5915888465ff00795cf12dddfd330c8fdebfad30ff93c649ee862819f135",
+    "column_order": [
+      "reference_pmid",
+      "epitope_iri",
+      "epitope_name",
+      "reference_title",
+      "reference_iedb_iri",
+      "source_molecule",
+      "staged_epitope_status",
+      "staged_epitope_role",
+      "staged_decision_source",
+      "staged_relationship_rule",
+      "staged_human_resolution",
+      "staged_review_note",
+      "staged_individually_human_reviewed",
+      "staged_rule_human_validated",
+      "staged_resolution_state",
+      "exact_sequence",
+      "antigen_label",
+      "tcell_assay_row_count",
+      "exact_assay_antigen_row_count",
+      "nonexact_assay_antigen_row_count",
+      "unknown_assay_antigen_relation_row_count",
+      "assay_antigen_relation",
+      "cd4_functional_exact_present",
+      "cd4_functional_exact_row_count",
+      "cd4_functional_nonexact_present",
+      "cd4_functional_nonexact_row_count",
+      "cd4_exact_positive_row_count",
+      "cd4_exact_negative_row_count",
+      "cd4_exact_other_or_unknown_row_count",
+      "cd4_exact_response_pattern",
+      "any_functional_assay_present",
+      "any_functional_row_count",
+      "any_positive_functional_present",
+      "any_negative_functional_present",
+      "any_mixed_functional_present",
+      "functional_specific_hla_code_support_present",
+      "mhc_subset_code_present",
+      "mhc_binding_assay_code_present",
+      "generic_class2",
+      "cd4_functional_without_exact_restriction",
+      "prediction_restriction_present",
+      "prediction_supported_restriction",
+      "prediction_only_restriction",
+      "linked_or_reference_class2",
+      "insufficient_restriction",
+      "mhc_restriction_names",
+      "mhc_restriction_codes",
+      "immunogen_relation",
+      "epitope_immunogen_mismatch_present",
+      "protein_or_construct_assay_present",
+      "cell_based_assay_present",
+      "linked_antigen_processing_evidence_present",
+      "linked_processing_candidate",
+      "tumour_cell_assay_object_present",
+      "native_tumour_recognition_structured_support",
+      "natural_presentation_structured_support",
+      "evidence_attribution_granularity",
+      "has_exact_pair_evidence",
+      "has_subcluster_linked_evidence",
+      "has_reference_linked_evidence",
+      "has_unresolved_attribution",
+      "assay_ids",
+      "assay_methods",
+      "assay_response_types",
+      "assay_evidence_records",
+      "experimental_allele_specific_functional",
+      "blocking_supported_class2",
+      "allele_specific_nonfunctional",
+      "tumour_lysate_assay_present",
+      "engineered_cell_assay_object_present",
+      "peptide_pulsed_target_assay_present",
+      "native_tumour_recognition_structurally_confirmed",
+      "restriction_support_summary",
+      "ground_truth_state"
+    ],
+    "schema_columns": 74,
+    "pairs": 7141,
+    "linked_assays": 9145,
+    "resolved": 6719,
+    "pending": 422,
+    "cancer_targets": 4517,
+    "modified_rows": 38,
+    "modified_cells": 38,
+    "changes": [
+      {
+        "reference_pmid": "15837732",
+        "epitope_iri": "http://www.iedb.org/epitope/1872156",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "15837732",
+        "epitope_iri": "http://www.iedb.org/epitope/1948755",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "28408606",
+        "epitope_iri": "http://www.iedb.org/epitope/2248624",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "28408606",
+        "epitope_iri": "http://www.iedb.org/epitope/2248626",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "28408606",
+        "epitope_iri": "http://www.iedb.org/epitope/2248630",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/111938",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/111957",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150331",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150335",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150343",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150381",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150415",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150458",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150465",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150516",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150524",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150601",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150625",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150670",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150734",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150750",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150755",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150757",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150776",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150852",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150890",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150915",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150916",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150946",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150950",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150952",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150971",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "32716518",
+        "epitope_iri": "http://www.iedb.org/epitope/2150979",
+        "field": "staged_review_note",
+        "change_type": "historical_proposal_clarification"
+      },
+      {
+        "reference_pmid": "33262074",
+        "epitope_iri": "http://www.iedb.org/epitope/1539513",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "33262074",
+        "epitope_iri": "http://www.iedb.org/epitope/1539704",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "33262074",
+        "epitope_iri": "http://www.iedb.org/epitope/1539946",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "33262074",
+        "epitope_iri": "http://www.iedb.org/epitope/1542517",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      },
+      {
+        "reference_pmid": "39774774",
+        "epitope_iri": "http://www.iedb.org/epitope/2257694",
+        "field": "staged_review_note",
+        "change_type": "subject_linkage_minimisation"
+      }
+    ],
+    "checks": {
+      "schema_and_order_identical": true,
+      "all_non_note_cells_identical": true,
+      "nested_assay_json_byte_identical": true,
+      "clone_identifiers_retained": true
+    }
+  },
+  "historical_lineage": {
+    "description": "Seven documented researcher-approved exact-pair decisions followed the frozen PRIMARY validation. The historical frozen matrix is not distributed; this checkout cannot reconstruct the historical comparison.",
+    "primary": {
+      "selected": 75,
+      "confirmed": 54,
+      "corrected": 6,
+      "unresolved": 15
+    },
+    "seven_decisions": [
+      {
+        "reference_pmid": "15837732",
+        "epitope_iri": "http://www.iedb.org/epitope/1872156",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "15837732",
+        "epitope_iri": "http://www.iedb.org/epitope/1948755",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "16000955",
+        "epitope_iri": "http://www.iedb.org/epitope/1714010",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "22529020",
+        "epitope_iri": "http://www.iedb.org/epitope/1350619",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "25449106",
+        "epitope_iri": "http://www.iedb.org/epitope/1319898",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "29405561",
+        "epitope_iri": "http://www.iedb.org/epitope/2257779",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      },
+      {
+        "reference_pmid": "31216557",
+        "epitope_iri": "http://www.iedb.org/epitope/2188420",
+        "fields": [
+          "staged_epitope_status",
+          "staged_epitope_role",
+          "staged_decision_source",
+          "staged_human_resolution",
+          "staged_review_note",
+          "staged_resolution_state",
+          "ground_truth_state"
+        ]
+      }
+    ]
+  },
+  "scope": "One note-sanitised current matrix. No new experimental results or biological adjudications. Original approval authority remains private."
+}

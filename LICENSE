@@ -1,0 +1,9 @@
+Licensing scopes
+
+Original project-authored software components, including Python and Streamlit code, code comments/docstrings and software portions of notebooks, are licensed under MIT; see LICENSES/MIT.txt. Copyright (c) 2026 sekyoung128.
+
+Original project-authored scientific annotations, curation decisions, explanatory documentation and research materials are licensed under Creative Commons Attribution 4.0 International; see LICENSES/CC-BY-4.0.txt and data/LICENSE.md. Attribution: sekyoung128, Dual-arm-cancer-vaccine-evidence-atlas. These grants apply only to rights held by the project rights holder. Scientific explanatory prose follows this content scope; MIT's reference to associated documentation does not override that explicit boundary.
+
+Third-party source records, external datasets, article material, dependencies and other third-party contributions retain their applicable licenses, notices and rights. Their inclusion, transformation or citation does not transfer ownership to this project. See ATTRIBUTION.md. No project license grants rights over third-party material that the project rights holder does not control.
+
+The two scopes apply to different components; recipients are not offered a choice of license for every repository item. Bare facts are not made exclusively owned by this notice. Excluded private records and local source PDFs are not part of the public release, and these notices do not authorize their disclosure or distribution.
