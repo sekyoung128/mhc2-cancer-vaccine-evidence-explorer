@@ -17,6 +17,7 @@ class PortfolioIntegrityTests(unittest.TestCase):
   self.assertEqual(len(self.schema),74)
   self.assertEqual([p.name for p in (ROOT/'data/processed').iterdir()],[NAME])
   expected = {
+   '.devcontainer/devcontainer.json',
    '.github/workflows/portal-tests.yml',
    '.gitignore',
    'ATTRIBUTION.md',
